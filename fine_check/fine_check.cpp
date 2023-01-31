@@ -3,19 +3,32 @@ using namespace std;
 
 int main()
 {
-    float fine;
     int days;
 
-    cout << "How long has the book been returned? (in Days): ";
+    cout << "How much late the book is returned? (in Days): ";
     cin >> days;
 
-    switch (days)
+    if (days > 0)
     {
-    case :
-
-        break;
-    
-    default:
-        break;
+    if (days <= 5)
+    {
+        cout << "Fine is 50 paise";
+    }
+    else if (days <= 10)
+    {
+        cout << "Fine is 1 rupees";
+    }
+    else if (days <= 30)
+    {
+        cout << "Fine is 5 rupees";
+    }
+    else
+    {
+        cout << "Membership is Cancelled";
+    }
+    }
+    else
+    {
+        cout << "Error: Invaild Value";
     }
 }
