@@ -17,5 +17,4 @@ int main()
 
     cout << "a = " << a << endl;
     cout << "b = " << b << endl;
-    cout << "manu";
 }
