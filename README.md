@@ -15,7 +15,7 @@ Q3. Write a C++ program to calculate
     d) Surface area of the closed cylinder ( s = 2 * 3.14 * r * h + 2 * 3.14 * r2 )
     e) Volume of sphere ( v = 4/3 * 3.14 * r3 )
 
-Q4. If the three sides of a triangle are entered through the keyboard, write a program to check whether the triangle is isosceles, equilateral, scalene or right angled triangle.
+Q4. If the three angle of a triangle are entered through the keyboard, write a program to check whether the triangle is isosceles, equilateral, scalene or right angled triangle.
 
 Q5. A library charges a fine for every book returned late. For first 5 days the fine is 50 paise, for 6-10 days fine is one rupee and above 10 days fine is 5 rupees. If you return the book after 30 days your membership will be cancelled. Write a program to accept the number of days the member is late to return the book and display the fine or the appropriate message. 
 
