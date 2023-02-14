@@ -20,7 +20,7 @@ int main()
 
         if (num == 0)
         {
-            cout << i << endl;
+            cout << i << "\t";
         }
     }
 }

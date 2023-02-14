@@ -13,7 +13,7 @@ int main()
     cin >> h;
 
     volume = pie * r * r * h;
-    sarea = 2 * pie * r * h + 2 * pie * r * r;
+    sarea = (2 * pie * r * h)+ (2 * pie * r * r);
 
     cout << "Volume of this Cylinder is " << volume << endl;
     cout << "Surface Area of this Cylinder is " << sarea << endl;
